@@ -1,0 +1,44 @@
+/* target all elements matching a class */
+.my-favorite-header {
+    background-color: aliceblue;
+    color: red;
+}
+
+/* target a specific element by id */
+#awe-yeah {
+    background-color: royalblue;
+    color: pink;
+    border: 2px solid green;
+    border-radius: 5px;
+}
+
+.container {
+    display: inline;
+}
+
+.inner-container {
+    width: 40%;
+    display: contents;
+}
+
+p {
+    color:brown;
+}
+
+.game-piece {
+    width: 25px;
+    height: 25px;
+    background-color: gray;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+  }
